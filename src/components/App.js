@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import CardArray from '../components/CardArray';
-import SearchBox from '../components/SearchBox';
-import Scroll from '../components/Scroll';
-import ErrorBoundary from '../components/ErrorBoundary';
+import CardArray from './CardArray';
+import SearchBox from './SearchBox';
+import Scroll from './Scroll';
+import ErrorBoundary from './ErrorBoundary';
 
 import './App.css';
 
