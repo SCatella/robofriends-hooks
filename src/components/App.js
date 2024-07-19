@@ -29,12 +29,12 @@ function App() {
   return (!robots.length) ?
     <h1>Loading</h1> :
   (
-      <div className="App tc">
-        <header>
+      <div className="App">
+        <header className='App-header'>
           <h1 className='f1'>Robofriends</h1>
           <SearchBox searchChange={onSearchChange} />
         </header>
-        <main>
+        <main className='App-main'>
           <Scroll>
             <ErrorBoundary>
               <CardArray robots={filteredRobots} />
